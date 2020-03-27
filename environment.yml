@@ -1,0 +1,22 @@
+name: the-lig
+channels:
+- conda-forge
+- oddt
+- rdkit # can also use conda-forge build
+- bioconda # only needed for more recent openbabel build
+dependencies:
+- python=3.6
+- joblib
+- docopt
+- numpy
+- pandas
+- scipy
+- scikit-learn=0.19.1
+- openbabel=2.4.1
+- oddt=0.6
+- rdkit=2018.03.4
+- matplotlib # for replicating figures
+- seaborn
+- jupyter # for using this env as a kernel in jupyterlab
+- jupyterlab
+- nb_conda_kernels
