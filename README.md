@@ -7,7 +7,7 @@ In the very near future I will clean this up so that the whole pipeline is runna
 
 NB: the generated model files and results for our use-case are not here. They are too big. 
 
-## Re-building (roughly) the models from the paper
+## Re-building the models from the paper
 The script in `scripts/rebuild_models.py` should do this. It takes the feature sets that were distributed on the space mentioned in the paper and re-runs sci-kit learn to build the various models. These are output in the `models` directory as `.sav` files
 
 ## Running the models on your own data
